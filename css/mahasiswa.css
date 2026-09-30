@@ -1,20 +1,11 @@
-/* css/mahasiswa.css */
-
-.mahasiswa-content {
-    margin-left: 220px;
+.mahasiswa-main {
+    flex: 1;
     padding: 30px;
-}
-
-.mahasiswa-card {
-    background-color: white;
-    padding: 25px;
-    border-radius: 8px;
 }
 
 .mahasiswa-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
 }
 
 .mahasiswa-table th,
