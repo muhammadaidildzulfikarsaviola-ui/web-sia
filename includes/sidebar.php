@@ -1,16 +1,11 @@
-<nav id="sidebar">
-    <div class="sidebar-menu">
+<aside id="sidebar">
 
-        <a href="dashboard.php" class="menu-item">
-            Dashboard
-        </a>
+    <h3>SIA Mahasiswa</h3>
+    <p>Sistem Informasi Akademik</p>
 
-        <a href="mahasiswa.php" class="menu-item">
-            Data Mahasiswa
-        </a>
+    <nav class="sidebar-menu">
+        <a href="dashboard.php">Dashboard</a>
+        <a href="mahasiswa.php">Data Mahasiswa</a>
+    </nav>
 
-    </div>
-
-</nav>
-
-<div id="content">
+</aside>
