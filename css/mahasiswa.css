@@ -1,6 +1,16 @@
 .mahasiswa-main {
-    flex: 1;
     padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-content: start;
+}
+
+.mahasiswa-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
 }
 
 .mahasiswa-table {
