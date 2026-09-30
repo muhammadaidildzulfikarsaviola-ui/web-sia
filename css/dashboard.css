@@ -1,4 +1,18 @@
 .dashboard-main {
-    flex: 1;
     padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-content: start;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.dashboard-card:first-child {
+    grid-column: 1 / -1;
 }
