@@ -14,12 +14,15 @@
         <?php include '../includes/navbar.php'; ?>
 
         <main class="mahasiswa-main">
-            <h1>Data Mahasiswa</h1>
-            <p>Halaman untuk mengelola data mahasiswa.</p>
+            <div class="mahasiswa-card">
+                <h1>Data Mahasiswa</h1>
+                <p>Halaman untuk mengelola data mahasiswa.</p>
+            </div>
         </main>
 
         <?php include '../includes/footer.php'; ?>
     </div>
 
+    <script src="../js/script.js"></script>
 </body>
 </html>
