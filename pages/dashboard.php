@@ -14,12 +14,15 @@
         <?php include '../includes/navbar.php'; ?>
 
         <main class="dashboard-main">
-            <h1>Dashboard</h1>
-            <p>Selamat datang di Sistem Informasi Akademik.</p>
+            <div class="dashboard-card">
+                <h1>Dashboard</h1>
+                <p>Selamat datang di Sistem Informasi Akademik.</p>
+            </div>
         </main>
 
         <?php include '../includes/footer.php'; ?>
     </div>
 
+    <script src="../js/script.js"></script>
 </body>
 </html>
