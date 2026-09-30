@@ -1,7 +1,11 @@
 <aside id="sidebar">
 
-    <h3>SIA Mahasiswa</h3>
-    <p>Sistem Informasi Akademik</p>
+    <button id="sidebar-toggle" type="button">☰</button>
+
+    <div class="sidebar-logo">
+        <h3>SIA Mahasiswa</h3>
+        <p>Sistem Informasi Akademik</p>
+    </div>
 
     <nav class="sidebar-menu">
         <a href="dashboard.php">Dashboard</a>
