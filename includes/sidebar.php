@@ -1,5 +1,16 @@
-<nav class="sidebar">
-    <h3>SIA Mahasiswa</h3>
-    <a href="../pages/dashboard.php">Dashboard</a>
-    <a href="../pages/mahasiswa.php">Data Mahasiswa</a>
+<nav id="sidebar">
+    <div class="sidebar-menu">
+
+        <a href="dashboard.php" class="menu-item">
+            Dashboard
+        </a>
+
+        <a href="mahasiswa.php" class="menu-item">
+            Data Mahasiswa
+        </a>
+
+    </div>
+
 </nav>
+
+<div id="content">

@@ -1,0 +1,14 @@
+.dashboard-content {
+    margin-left: 220px;
+    min-height: 100vh;
+}
+
+.dashboard-card {
+    background-color: white;
+    padding: 30px;
+    min-height: 300px;
+}
+
+.footer {
+    margin-bottom: 0;
+}
