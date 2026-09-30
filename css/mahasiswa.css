@@ -7,20 +7,34 @@
 }
 
 .mahasiswa-card {
+    padding: 24px;
     background-color: white;
-    padding: 25px;
-    border-radius: 8px;
     border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.mahasiswa-card h1 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.mahasiswa-card p {
+    margin: 0;
+    color: #666;
+    font-size: 15px;
 }
 
 .mahasiswa-table {
     width: 100%;
+    margin-top: 20px;
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 .mahasiswa-table th,
 .mahasiswa-table td {
-    padding: 10px;
+    padding: 10px 12px;
     border: 1px solid #ddd;
     text-align: left;
 }
